@@ -3,6 +3,7 @@ class DocsController < ApplicationController
 
     def index
       @docs = Doc.all.order("created_at DESC")
+      #lists documents in the order of the time created from newest to oldest.
     end
 
     def show
@@ -25,9 +26,16 @@ class DocsController < ApplicationController
     end
 
     def update
+      if @doc.update(doc_params)
+        redirect_to @doc
+      else
+        render 'edit'
+      end
     end
 
     def destroy
+      @doc.destroy
+      redirect_to docs_path
     end
 
     private
