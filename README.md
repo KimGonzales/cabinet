@@ -1,24 +1,5 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This RoR application was built with the help of Udemy's "8 beautiful Ruby on Rails App in 30 Days & TDD" Immersive Course. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The lesson covers topics including how to build a CRUD application using the MVC Rail Framework, building user-model associations and implementing custom stylesheets.
