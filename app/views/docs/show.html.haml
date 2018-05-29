@@ -4,3 +4,4 @@
 = link_to "All Docs", docs_path 
 = link_to "Edit Doc", edit_doc_path(@doc)
 = link_to "Delete It", doc_path(@doc), method: :delete, data: { confirm: "Are you sure?" }
+/ notice the difference between the edit and delete path. also the data attribute sets the message to confirm the delete action.
